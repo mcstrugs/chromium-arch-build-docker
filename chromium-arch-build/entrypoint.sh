@@ -7,7 +7,7 @@ pacman -S --noconfirm gtk3 nss alsa-lib xdg-utils libxss libcups ttf-liberation 
 useradd -mg wheel build
 
 cd /home/build
-git clone https://github.com/ungoogled-software/ungoogled-chromium-archlinux.git
+git clone https://aur.archlinux.org/ungoogled-chromium.git
 
 chown -R build /home/build
 su build
